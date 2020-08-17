@@ -1,0 +1,17 @@
+{
+  "name": "To-Do-List-WebSocket",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:AdrianoX/To-Do-List-WebSocket.git",
+  "author": "Adrian Kryzinski <adriankryzinski@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.1",
+    "nodemon": "^2.0.4",
+    "socket.io": "2.2.0",
+    "uuidv4": "^6.2.2"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  }
+}
